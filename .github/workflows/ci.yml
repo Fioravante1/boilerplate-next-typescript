@@ -2,24 +2,25 @@ name: ci
 on: [pull_request]
 
 jobs:
-  build: ubuntu-latest
-  steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-    - name: Setup Node
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-    - name: Install dependencies
-      run: yarn Install
+      - name: Install dependencies
+        run: yarn Install
 
-    - name: Linting
-      run: yarn lint
+      - name: Linting
+        run: yarn lint
 
-    - name: Test
-      run: yarn test
+      - name: Test
+        run: yarn test
 
-    - name: build
-      run: yarn build
+      - name: build
+        run: yarn build
