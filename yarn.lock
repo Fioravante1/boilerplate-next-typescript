@@ -5898,10 +5898,10 @@ eslint-plugin-react@^7.27.0, eslint-plugin-react@^7.28.0:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.6"
 
-eslint-plugin-storybook@^0.5.6:
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.5.6.tgz#10bce5933ad9ceec46cdf5ed5a81b50b33f73bf7"
-  integrity sha512-hxeydYXi0DZC80kV9wPz9pA9oG9GVdfNg9iXR/KhqnMdqZWCGQKsex05k4VlX52no7mm/sICjW/iKYtRqVkaaw==
+eslint-plugin-storybook@^0.5.7:
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.5.7.tgz#7d871efe232401de7c21680653608b1c88e83ecb"
+  integrity sha512-rko/QUHa3/hrC3W5RmPrukKawCyGeVqSuwzyLZO6aV/neyOPrgkL/LED8u6NQJSaT1qZFT+7iLQ1eE8Ce7G+aA==
   dependencies:
     "@storybook/csf" "^0.0.1"
     "@typescript-eslint/experimental-utils" "^5.3.0"
@@ -8636,10 +8636,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-lint-staged@^12.3.3:
-  version "12.3.3"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.3.tgz#0a465962fe53baa2b4b9da50801ead49a910e03b"
-  integrity sha512-OqcLsqcPOqzvsfkxjeBpZylgJ3SRG1RYqc9LxC6tkt6tNsq1bNVkAixBwX09f6CobcHswzqVOCBpFR1Fck0+ag==
+lint-staged@^12.3.4:
+  version "12.3.4"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.4.tgz#4b1ff8c394c3e6da436aaec5afd4db18b5dac360"
+  integrity sha512-yv/iK4WwZ7/v0GtVkNb3R82pdL9M+ScpIbJLJNyCXkJ1FGaXvRCOg/SeL59SZtPpqZhE7BD6kPKFLIDUhDx2/w==
   dependencies:
     cli-truncate "^3.1.0"
     colorette "^2.0.16"
