@@ -28,7 +28,7 @@
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-typescript": "^7.16.7",
-    "@storybook/addon-actions": "^6.4.20",
+    "@storybook/addon-actions": "^6.4.21",
     "@storybook/addon-essentials": "^6.4.20",
     "@storybook/addon-knobs": "^6.4.0",
     "@storybook/addon-links": "^6.4.20",
@@ -41,7 +41,7 @@
     "@types/react": "^17.0.43",
     "@types/styled-components": "^5.1.24",
     "@typescript-eslint/eslint-plugin": "^5.19.0",
-    "@typescript-eslint/parser": "^5.18.0",
+    "@typescript-eslint/parser": "^5.19.0",
     "babel-loader": "^8.2.4",
     "babel-plugin-styled-components": "^2.0.6",
     "eslint": "8.12.0",
